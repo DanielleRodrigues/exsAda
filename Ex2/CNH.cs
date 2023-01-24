@@ -44,5 +44,5 @@ por padrão, deve ser maior ou igual a 18,
         Idade = idade;
     }
 
-    CNH cnh = new CNH("BR", 23, "B");
+    CNH cnh = new CNH("BR", 24, "B");
 }
