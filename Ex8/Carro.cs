@@ -43,7 +43,7 @@ class Carro
 
         Carro meuCarro = new Carro();
 
-        meuCarro.Cor = "Preto";
+        meuCarro.Cor = "Preto Fosco";
         meuCarro.Marca = "Honda";
         meuCarro.Modelo = "Sedan";
         meuCarro.CapacidadeDoTanque = 50;
