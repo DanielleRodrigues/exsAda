@@ -6,7 +6,8 @@ por padrão, deve ser maior ou igual a 18,
 
  Se o país for BR deve também ser informada a
  categoria da carteira (A, B, C, D, E, AB, AC, AD ou AE).*/
-
+ 
+using System;
  public class CNH
 {
     public string Pais { get; set; }

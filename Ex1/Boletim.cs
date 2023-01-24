@@ -3,6 +3,8 @@ nome (do aluno),
 ano (maior que 1964), 
 semestre(de 1 a 14) 
 e um List com as médias de 6 máterias.*/
+
+using System;
 public class Boletim
 {
     public string Nome { get; set; }
