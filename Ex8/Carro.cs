@@ -3,7 +3,7 @@ cor, marca, modelo (sedan ou hatch), capacidadeDoTanque (em litros),
 tipoDeCombustível (gasolina, álcool ou flex) 
 e um método abastecer que respeite o tipo de 
 combustível que o automóvel aceita e a capacidade máxima de litros.*/
-
+using System;
 class Carro
 {
     private readonly double precoGasolina = 5.62;

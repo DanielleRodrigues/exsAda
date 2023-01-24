@@ -34,13 +34,13 @@ class Restaurante
         return 0;
     }
 
-    Restaurante restaurante = new Restaurante();
+    /*Restaurante restaurante = new Restaurante();
     restaurante.cidade = "São Paulo";
     restaurante.delivery = true;
     restaurante.pedidosPendentes = 5;
     string cidadeCliente = "São Paulo";
 
-    /*if (restaurante.entregaPedido(cidadeCliente))
+    if (restaurante.entregaPedido(cidadeCliente))
     {
         Console.WriteLine("Entrega possível, tempo estimado: " + restaurante.tempoEntrega(cidadeCliente) + " minutos.");
     }
