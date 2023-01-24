@@ -19,28 +19,30 @@ por padrão, deve ser maior ou igual a 18,
         if (pais == "BR")
         {
             if (idade < 18)
-                throw new ArgumentException("Idade deve ser maior ou igual a 18 para o país BR.");
+                Console.WriteLine("Idade deve ser maior ou igual a 18 para o país BR.");
 
             if (!string.IsNullOrEmpty(categoria) && !categoria.All(c => "ABCDE".Contains(c)))
-                throw new ArgumentException("Categoria inválida para o país BR. Valores válidos: A, B, C, D, E, AB, AC, AD ou AE.");
+                Console.WriteLine("Categoria inválida para o país BR. Valores válidos: A, B, C, D, E, AB, AC, AD ou AE.");
 
             Categoria = categoria;
         }
         else if (pais == "US" || pais == "CA")
         {
             if (idade < 16)
-                throw new ArgumentException("Idade deve ser maior ou igual a 16 para os países US e CA.");
+                Console.WriteLine("Idade deve ser maior ou igual a 16 para os países US e CA.");
         }
         else if (pais == "CH" || pais == "RU")
         {
             if (idade < 21)
-                throw new ArgumentException("Idade deve ser maior ou igual a 21 para os países CH e RU.");
+                Console.WriteLine("Idade deve ser maior ou igual a 21 para os países CH e RU.");
         }
         else
         {
             if (idade < 18)
-                throw new ArgumentException("Idade deve ser maior ou igual a 18 para os outros países.");
+                Console.WriteLine("Idade deve ser maior ou igual a 18 para os outros países.");
         }
         Idade = idade;
     }
+
+    CNH cnh = new CNH("BR", 23, "B");
 }
