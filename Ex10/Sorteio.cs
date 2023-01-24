@@ -22,5 +22,5 @@ class Sorteio
 
     Sorteio sorteio = new Sorteio(10); 
     int vencedor = sorteio.sorteiaPremio();
-    Console.WriteLine("O vencedor é o participante de número " + vencedor + "!");
+   // Console.WriteLine("O vencedor é o participante de número " + vencedor + "!");
 }
